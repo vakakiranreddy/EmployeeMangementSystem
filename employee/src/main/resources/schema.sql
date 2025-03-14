@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS employees (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    domain VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL,
+    experience INT DEFAULT 0,
+    salary DOUBLE DEFAULT 0
+);
