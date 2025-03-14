@@ -1,8 +1,5 @@
 package com.example.employeemanagement.model;
-
-import java.util.*;
 import jakarta.persistence.*;
-
 
 @Entity
 @Table(name = "employees")
